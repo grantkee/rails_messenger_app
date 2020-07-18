@@ -1,8 +1,5 @@
 // Place all the styles related to the Messages controller here.
 // They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
-// Place all the styles related to the Messages controller here.
-// They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 html, body, p {
@@ -89,6 +86,8 @@ button:hover {
 form label {
   display: block;
   width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 form textarea {
@@ -96,7 +95,6 @@ form textarea {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 300;
-  margin: 20px 0 10px;
   min-height: 100px;
   padding: 16px;
   transition: border 0.5s;
